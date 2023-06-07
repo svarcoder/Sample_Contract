@@ -1,0 +1,290 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\charv\\Downloads\\contracts\\New folder\\contracts\\libraries\\Context.sol": {
+      "lastModificationDate": 1641879307501,
+      "contentHash": "501d6935c01f2625c753ead8b0952ccb",
+      "sourceName": "contracts/libraries/Context.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "C:\\Users\\charv\\Downloads\\contracts\\New folder\\contracts\\libraries\\Ownable.sol": {
+      "lastModificationDate": 1641879307513,
+      "contentHash": "9c8582c54e4353b2192a68fd019072f5",
+      "sourceName": "contracts/libraries/Ownable.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Context.sol"
+      ],
+      "versionPragmas": [
+        "0.5.16"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "C:\\Users\\charv\\Downloads\\contracts\\New folder\\contracts\\sample2.sol": {
+      "lastModificationDate": 1641879307499,
+      "contentHash": "499977f8ba034299257dcf9788bdddca",
+      "sourceName": "contracts/sample2.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./libraries/SafeMath.sol",
+        "./libraries/Ownable.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "CoinWallet"
+      ]
+    },
+    "C:\\Users\\charv\\Downloads\\contracts\\New folder\\contracts\\libraries\\SafeMath.sol": {
+      "lastModificationDate": 1641879307515,
+      "contentHash": "07a2f776819ef5459be444e9559f391d",
+      "sourceName": "contracts/libraries/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.5.16"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "C:\\Users\\charv\\Downloads\\contracts\\New folder\\contracts\\sample1.sol": {
+      "lastModificationDate": 1641879307497,
+      "contentHash": "0e09e65bad9ad65b59b1935d8608958d",
+      "sourceName": "contracts/sample1.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./libraries/SafeMath.sol",
+        "./libraries/Ownable.sol",
+        "./libraries/ERC20.sol"
+      ],
+      "versionPragmas": [
+        "0.5.16"
+      ],
+      "artifacts": [
+        "Sample1"
+      ]
+    },
+    "C:\\Users\\charv\\Downloads\\contracts\\New folder\\contracts\\libraries\\ERC20.sol": {
+      "lastModificationDate": 1641879307503,
+      "contentHash": "57abe17d188a37ef25051093b5f23133",
+      "sourceName": "contracts/libraries/ERC20.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC20.sol",
+        "./IERC20Metadata.sol",
+        "./Context.sol"
+      ],
+      "versionPragmas": [
+        "0.5.16"
+      ],
+      "artifacts": [
+        "ERC20"
+      ]
+    },
+    "C:\\Users\\charv\\Downloads\\contracts\\New folder\\contracts\\libraries\\IERC20.sol": {
+      "lastModificationDate": 1641879307509,
+      "contentHash": "f06eb026cfaec2be4cd460a5d7194546",
+      "sourceName": "contracts/libraries/IERC20.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.5.16"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "C:\\Users\\charv\\Downloads\\contracts\\New folder\\contracts\\libraries\\IERC20Metadata.sol": {
+      "lastModificationDate": 1641879307511,
+      "contentHash": "5cc2dee5e5104fa942f31da0afc388a8",
+      "sourceName": "contracts/libraries/IERC20Metadata.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.5.16"
+      ],
+      "artifacts": [
+        "IERC20Metadata"
+      ]
+    }
+  }
+}
